@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'use_db'
-  s.version = '1.0'
-  s.date = '2008-07-27'
+  s.version = '1.1'
+  s.date = '2008-07-28'
   
   s.summary = "Use multiple databases for your active record models"
   s.description = "Easily connect to additional databases"
@@ -20,12 +20,7 @@ Gem::Specification.new do |s|
             "Rakefile",
             "init.rb",
             "install.rb",
-            "lib/migration.rb",
-            "lib/override_fixtures.rb",
-            "lib/override_test_case.rb",
-            "lib/test_model.rb",
             "lib/use_db.rb",
-            "lib/use_db_test.rb",
             "uninstall.rb",
             "use_db.gemspec"]
   
